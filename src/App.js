@@ -7,8 +7,7 @@ import Mainpage from './pages/Mainpage';
 
 function App() {
   return (
-    <div className=" bg-[url('https://m.media-amazon.com/images/I/61tziSbwywL')] ">
-
+    <div className="h-screen bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs7NB_wDPuL_HCf5PMoivtqik9azuf6TnJnw&usqp=CAU')">
 
 
 
