@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row p-2 justify-between text-xl text-black items-center">
+    <div className="flex flex-row p-2 justify-between text-xl text-white items-center">
 <img className='w-60' src="https://whats.todaysplan.com.au/assets/images/featureset/general/branding/logo-stacked.png"/>
 
       <div className=" text-white hidden md:flex flex-col md:flex-row gap-5 items-center">
