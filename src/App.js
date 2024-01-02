@@ -7,11 +7,13 @@ import Mainpage from './pages/Mainpage';
 
 function App() {
   return (
-    <div className="h-screen bg-transparent">
+    <div className=" bg-[url('https://m.media-amazon.com/images/I/61tziSbwywL')] ">
 
-<Navbar />
+
+
 
       <BrowserRouter>
+      {/* <Navbar /> */}
         <Routes>
           <Route path='/' element={<Mainpage />} />
           <Route path='/addtodo' element={<Addtodo />} />
