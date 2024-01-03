@@ -11,9 +11,7 @@ import SigIn from './pages/SigIn';
 
 function App() {
   return (
-    <div className="h-screen bg-black">
-
-
+    <div className=" bg-opacity-75 bg-[url('https://wallpapers.com/images/hd/solid-pink-background-2obrm4zdhnpqrypd.jpg')] ">
 
       <BrowserRouter>
         {/* <Navbar /> */}
