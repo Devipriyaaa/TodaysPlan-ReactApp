@@ -8,14 +8,14 @@ const Navbar = () => {
       <div className=" text-white font-bold hidden md:flex flex-col md:flex-row gap-5 items-center">
         <p className="border-2 border-white rounded-md p-1">Home</p>
       
-       <select className="text-black font-bold border-2 border-white hover:bg-red-600 bg-red:500 rounded-md p-1">
+       <select className="text-black font-bold border-2 border-white rounded-md p-1">
           <option value="English">English</option>
           <option value="Hindi">Hindi</option>
           <option value="Malayalam">Malayalam</option>
 
          
         </select>
-        <button className='text-white font-bold border-2 border-white rounded-md hover:bg-red-500 p-1'>
+        <button className='text-white font-bold border-2 border-white rounded-md  p-1'>
             SignIn
           </button>
 
