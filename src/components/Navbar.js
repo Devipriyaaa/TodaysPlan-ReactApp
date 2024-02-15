@@ -11,7 +11,7 @@ const Navbar = () => {
        <select className="text-black font-bold border-2 border-white rounded-md p-1">
           <option value="English">English</option>
           <option value="Hindi">Hindi</option>
-          <option value="Malayalam">Malayalam</option>
+          
 
          
         </select>
