@@ -6,12 +6,11 @@ import Addtodo from './pages/Addtodo';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Mainpage from './pages/Mainpage';
 import Login from './pages/Login';
-import Forms from './pages/SigIn';
 import SigIn from './pages/SigIn';
 
 function App() {
   return (
-    <div className=" bg-opacity-75 bg-[url('https://wallpapers.com/images/hd/solid-pink-background-2obrm4zdhnpqrypd.jpg')] ">
+    <div className="h-screen bg-n0-repeat bg-cover bg-opacity-75 bg-[url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-colorful-gradient-dark-rose-texture-background-image_200630.jpg')] ">
 
       <BrowserRouter>
         {/* <Navbar /> */}
