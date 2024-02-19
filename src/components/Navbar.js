@@ -3,20 +3,20 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className="flex flex-row p-2 justify-between text-xl text-white items-center">
-<img className='w-60' src="https://whats.todaysplan.com.au/assets/images/featureset/general/branding/logo-stacked.png"/>
+<img className='w-60' src="https://www.filepicker.io/api/file/jsrJwNHkQRFuXd8MUiF7"/>
 
-      <div className=" text-black font-bold hidden md:flex flex-col md:flex-row gap-5 items-center">
-        <p className="border-4 border-black rounded-md">Home</p>
+      <div className=" text-white font-bold hidden md:flex flex-col md:flex-row gap-5 items-center">
+        <p className="border-4 border-white rounded-md p-1">Home</p>
       
-       <select className="text-black font-bold border-4 border-black hover:bg-red-600 bg-red:500 rounded-md">
+       <select className="text-black font-bold border-4 border-white bg-red:500 rounded-md p-1">
           <option value="English">English</option>
           <option value="Hindi">Hindi</option>
           <option value="Malayalam">Malayalam</option>
 
          
         </select>
-        <button className='text-black font-bold border-4 border-black rounded-md hover:bg-red-500'>
-            SingIn
+        <button className='text-white font-bold border-4 border-white rounded-md p-1'>
+            SignIn
           </button>
 
       </div>
