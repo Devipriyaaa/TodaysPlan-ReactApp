@@ -29,27 +29,30 @@ const Addtodo = () => {
 
   // funcvtion to update todo text
   const handleInputChange =(event)=> {
-changeTodotext(event.target.value);
+  
+  changeTodotext(event.target.value);
   }
+ 
   const addTodo =() =>(
     changePendingTodos([...pendingTodos,todotext])
   )
   return (
     <>
-    <div className="text-white p-40">
+    <div className="text-black p-40">
       <form onSubmit={handleSubmit(myfunc)} class="max-w-sm mx-auto">
         <div class="mb-5">
           <label
             for="text"
-            class="block mb-2 text-3xl font-medium text-gray-900 text-white"
+            class="block mb-2 text-3xl font-medium text-gray-900 text-black"
           >
             Today's Plan
           </label>
-          <input type="text-black" onChange={handleInputChange} /> 
+          <input type="text-black" value={todotext} onChange={handleInputChange} /> 
         </div>
-        <button type="submit" class="text-white bg-black rounded-mb">
-          Submit
-        </button>
+        <div className="todo-form-buttons">
+        <Button class="add-btn" handleClick={()=>{}} btnText="Add" >Add</Button>
+        <Button class="cancel-btn" handleClick={()=>{}} btnText="Cancel" >Cancel</Button>
+        </div>
       </form>
       <p>{Add.task}</p>
     </div>
