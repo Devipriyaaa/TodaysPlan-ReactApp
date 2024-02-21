@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Mainpage from './pages/Mainpage';
 import Login from './pages/Login';
 import SigIn from './pages/SigIn';
+import Statusbar from './pages/Statusbar';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/addtodo' element={<Addtodo />} />
           <Route path='/login' element={<Login />} />
           <Route path='/SigIn'element={<SigIn/>}/>
+          <Route path='/statusbar'element={<Statusbar/>} />
 
 
 
