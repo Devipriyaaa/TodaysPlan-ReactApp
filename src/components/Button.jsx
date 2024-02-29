@@ -1,11 +1,3 @@
-import React from 'react'
-
-const Button = () => {
-  return (
-    <div>
-        
-    </div>
-  )
+export default function Button(props){
+    return <button className={props.class} onClick={props.handleClick} >{props.btnText}</button>
 }
-
-export default Button

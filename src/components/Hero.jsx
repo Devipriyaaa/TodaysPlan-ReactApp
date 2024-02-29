@@ -1,12 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
-        <div className=" text-4xl text-black flex flex-col items-center justify-center gap-5">
-            <h1 className="font-semibold">Welcome To Today's Plan</h1>
-            <p className=" font-black">Let's Start Our Success Journey</p>
-            <img src="https://i.pinimg.com/564x/78/1e/21/781e212cb0a891c6d8a3738c525e235d.jpg" alt="" />
-
+        <div className=" text-white font-bold flex flex-col items-center justify-center gap-5">
+            <h1 className=" text-4xl font-bold">Welcome To Today's Plan</h1>
+            <p className=" text-6xl font-black">Let's Start Our Success Journey</p>
+            <img className="w-1/3" src="" alt="" />
+            <button className="text-black text-2xl font-bold border-4 border-black hover:bg-red-700 rounded-md">
+                <Link to ="/login">Get Started</Link>
+            </button>
         </div>
 
     )

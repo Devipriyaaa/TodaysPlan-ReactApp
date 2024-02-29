@@ -2,18 +2,14 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row p-2 justify-between text-xl text-black items-center">
-<img className='w-60' src="https://whats.todaysplan.com.au/assets/images/featureset/general/branding/logo-stacked.png"/>
+    <div className="flex flex-row p-2 justify-between text-xl text-white items-center">
+<img className='w-60'bg-cover src=""/>
 
-      <div className=" hidden md:flex flex-col md:flex-row gap-5 items-center">
-        <p className="border-2 border-black rounded-md">Home</p>
-      
-       <select className="text-lg border-2 border-black hover:bg-red-600 text-black bg-red:500 rounded-md">
-          <option value="English">English</option>
-          <option value="Hindi">Hindi</option>
-          <option value="Malayalam">Malayalam</option>
-        </select>
+      <div className=" text-black font-bold hidden md:flex flex-col md:flex-row gap-5 items-center">
         
+        <button className='text-white font-bold border-4 border-black rounded-md hover:bg-red-500'>
+            SignIn
+          </button>
 
       </div>
       <div className="flex md:hidden item-center justify-center">
