@@ -7,11 +7,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Mainpage from './pages/Mainpage';
 import Login from './pages/Login';
 import SigIn from './pages/SigIn';
-import Statusbar from './pages/Statusbar';
+import Button from './components/Button';
 
 function App() {
   return (
-    <div className="h-screen bg-n0-repeat bg-cover bg-opacity-75 bg-[url('https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-colorful-gradient-dark-rose-texture-background-image_200630.jpg')] ">
+    <div className="h-screen bg-n0-repeat bg-cover bg-black">
 
       <BrowserRouter>
         {/* <Navbar /> */}
@@ -20,13 +20,13 @@ function App() {
           <Route path='/addtodo' element={<Addtodo />} />
           <Route path='/login' element={<Login />} />
           <Route path='/SigIn'element={<SigIn/>}/>
-          <Route path='/statusbar'element={<Statusbar/>} />
+          <Route path='/Button'element={<Button/>}/>
 
 
 
         </Routes>
 
-        <Footer />
+        {/* <Footer /> */}
 
 
       </BrowserRouter>
