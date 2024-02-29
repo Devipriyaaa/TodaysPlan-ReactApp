@@ -9,7 +9,7 @@ const Navbar = () => {
         
         <button className='text-white font-bold border-4 border-black rounded-md hover:bg-red-500'>
             SignIn
-          </button>
+          </button> 
 
       </div>
       <div className="flex md:hidden item-center justify-center">
